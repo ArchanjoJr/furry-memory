@@ -5,8 +5,8 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>HELLO WORLD !</Text>
-        <Button title='SAO PAULO LIXO !' />
+        <Text style={styles.paragraph}>LET'S GO FORM !</Text>
+        
       </View>
     );
   }
@@ -14,10 +14,18 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    marginTop:50,
+    padding:20,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  paragraph: {
+    margin: 24,
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    color: '#4e006d',
+  }
 });
  
