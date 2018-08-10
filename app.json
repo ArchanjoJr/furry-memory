@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "helloWorld",
+    "version":"1.0.0",
+    "sdkVersion": "27.0.0",
+    "android": {
+      "package": "com.archanjojr.helloWorld",
+      "versionCode": 1,
+      "permissions":[],
+    }
+  }
+}
